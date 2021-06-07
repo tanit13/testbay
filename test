@@ -1,1 +1,32 @@
 ddd
+
+
+,"Odbc_name":"connEDM"
+,"Query":" select msg ,rn_grp from DATALAB_OPER.line_notify_project where project = 'AF1' order by rn_grp ,rn_stm "
+
+,"Odbc_name":"connEDM"
+,"Query":" select msg ,rn_grp from DATALAB_OPER.line_notify_project where project = 'FRA' order by rn_grp ,rn_stm "
+
+,"Odbc_name":"connOdbcEDW"
+,"Query":" select text_ from line_notify_edw_all "
+
+,"Odbc_name":"connEDM"
+,"Query":" select text_ from DATALAB_OPER.line_notify_edm_incomplete order by rn0 ,rn1 "
+
+,"Odbc_name":"connEDM"
+,"Query":" select text_  from datalab_oper.line_notify_edm_abnormal order by rn, text_   "
+
+,"Odbc_name":"connEDM"
+,"Query":" select  text_  from DATALAB_OPER.line_notify_gezus order by stream_key  "
+
+,"Odbc_name":"connOdbcEDW"
+,"Query":" select  text_  from LINE_NOTIFY_BPMS "
+
+,"Odbc_name":"connOdbcEDW"
+,"Query":" select  text_ from line_notify_edw_session   "
+
+,"Odbc_name":"connOdbcEDW"
+,"Query":" select text_ from line_notify_ecm_ts "
+
+,"Odbc_name":"connEDM"
+,"Query":" select text1 as msg from datalab_oper.line_notify_edm_session order by text1"
